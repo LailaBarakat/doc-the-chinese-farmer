@@ -1,0 +1,84 @@
+p{
+    font-family: Serif;
+    word-spacing: 4px;
+    font-size: larger;
+    color: darkgreen;
+}
+a{
+    font-family: "Al Nile";
+    font-size: larger;
+    color: darkblue;
+}
+
+a:visited{
+    color: darkred;
+}
+a:hover{
+    background-color: darkgrey;
+}
+
+
+body{
+    width: 90%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:#D9DD5D;
+    background-image: url("img/candy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+}
+
+blockquote{
+    width: 45%;
+    margin-right: 50px;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+q{
+    font-size: 160%;
+    background-color: lightgray;
+    border-left: 3px solid;
+    padding-left:30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+}
+
+.farmer{
+    border-left: 3px solid darkred;
+}
+.villagers{
+    border-left: 3px solid blue;
+}
+
+header>h1{
+    background-color: yellow;
+}
+
+span[class="good"]{
+    text-transform: capitalize;
+    color: green;
+}
+
+span[class="bad"]{
+    text-transform: capitalize;
+    color: red;
+}
+
+tr[class="grey"]{
+    background-color: gray;
+}
+
+tr[class="white"]{
+    background-color: white;
+
+}
+p[class=bold]{
+    font-weight: bold;
+}
+
