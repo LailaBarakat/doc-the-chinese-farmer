@@ -30,6 +30,7 @@ body{
     background-size: cover;
     background-position: bottom right;
     font-family: 'Open Sans', sans-serif;
+
 }
 
 blockquote{
@@ -82,6 +83,7 @@ tr[class="white"]{
 p[class=bold]{
     font-weight: bold;
 }
+
 img {
     float: left;
     margin-right: 30px;
@@ -96,8 +98,5 @@ img {
     position: sticky;
     margin-right: 1px;
 }
-
-
-
 
 
