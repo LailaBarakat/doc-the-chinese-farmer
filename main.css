@@ -29,6 +29,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom right;
+    font-family: 'Open Sans', sans-serif;
 }
 
 blockquote{
@@ -81,4 +82,22 @@ tr[class="white"]{
 p[class=bold]{
     font-weight: bold;
 }
+img {
+    float: left;
+    margin-right: 30px;
+}
+
+.notification {
+    background: #FFFFDD;
+    padding: .5rem 1rem;
+    border: 3px solid;
+
+    right: 0px;
+    position: sticky;
+    margin-right: 1px;
+}
+
+
+
+
 
